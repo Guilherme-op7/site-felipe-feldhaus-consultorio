@@ -204,6 +204,7 @@ body {
     display: flex;
     align-items: center;
     gap: 64px;
+    justify-content: center;
 }
 
 .imagem-sobre {
@@ -600,34 +601,46 @@ body {
     transform: translateY(-5px);
 }
 
-
 @media (max-width: 992px) {
-    .container-hero {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .texto-hero {
-        padding-right: 0;
-        margin-bottom: 48px;
-    }
-    
-    .container-sobre {
-        flex-direction: column;
-    }
-    
-    .container-contato {
-        flex-direction: column;
-    }
-    
-    .texto-hero h1 {
-        font-size: 48px;
-    }
-    
-    .texto-hero h1 span {
-        font-size: 32px;
-    }
+  .hero {
+    min-height: auto;
+    padding: 80px 0 64px;
+  }
+
+  .container-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .imagem-hero {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagem-hero img {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    object-fit: contain;
+    transform: none;
+  }
+
+  .texto-hero {
+    padding: 0 16px;
+  }
+
+  .hero {
+    height: auto;
+    min-height: unset;
+    padding: 80px 0 64px;
+  }
 }
+
 
 @media (max-width: 768px) {
     .navegacao ul {
@@ -662,6 +675,21 @@ body {
     .texto-hero h1 span {
         font-size: 29px;
     }
+
+    .imagem-hero {
+       height: auto;
+    }
+
+    .container-sobre {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+    .texto-sobre {
+    padding: 0 16px;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -680,4 +708,12 @@ body {
     .cartao-depoimento {
         padding: 24px;
     }
+}
+
+@media (max-width: 480px) {
+  .container-rodape {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
