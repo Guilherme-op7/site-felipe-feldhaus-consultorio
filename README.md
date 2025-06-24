@@ -44,7 +44,7 @@ O **Dr. Felipe Feldhaus** é especialista em **Harmonização Orofacial**, com c
 ## 📷 Prints do projeto:
 
 ### Página Inicial:
-![Página Inicial](./8f3320bf-9649-4b7f-97ba-330e7a51cfae.png)
+![Página Inicial](inicial.png)
 
 ### Sobre o Dr. Felipe:
 ![Sobre o Doutor](fffre.png)
