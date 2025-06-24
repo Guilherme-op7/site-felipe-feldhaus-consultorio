@@ -162,12 +162,12 @@ body {
     max-width: 500px;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    transform: perspective(1000px) rotateY(-10deg);
+    transform: rotateY(-10deg);
     transition: transform 0.5s ease;
 }
 
 .imagem-hero:hover img {
-    transform: perspective(1000px) rotateY(0deg);
+    transform: rotateY(-10deg);
 }
 
 .sobre {
@@ -284,10 +284,6 @@ body {
     max-width: 350px;
 }
 
-.cartao-servico:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-}
 
 .imagem-servico {
     height: 200px;
@@ -300,10 +296,6 @@ body {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
-}
-
-.cartao-servico:hover .imagem-servico img {
-    transform: scale(1.1);
 }
 
 .conteudo-servico {
@@ -601,6 +593,7 @@ body {
     transform: translateY(-5px);
 }
 
+
 @media (max-width: 992px) {
   .hero {
     min-height: auto;
@@ -691,6 +684,9 @@ body {
     padding: 0 16px;
     }
 
+    .cabecalho {
+    backdrop-filter: blur(5px);
+    }
 }
 
 @media (max-width: 576px) {
