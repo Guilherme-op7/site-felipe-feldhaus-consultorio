@@ -27,7 +27,7 @@ O **Dr. Felipe Feldhaus** é especialista em **Harmonização Orofacial**, com c
 - ✅ HTML5
 - ✅ CSS3 (puro)
 - ✅ Design Responsivo (Desktop, Tablet e Mobile)
-- ✅ Deploy no **Netlify**
+- ✅ Deploy na **Hostinger**
 
 ---
 
