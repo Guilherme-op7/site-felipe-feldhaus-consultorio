@@ -9,7 +9,7 @@ O desafio era criar uma página **leve**, **moderna** e **responsiva**, usando a
 
 ## 🌐 Link para o site publicado:
 
-👉 [https://drfelipefeldhaus.netlify.app/](https://drfelipefeldhaus.netlify.app/)
+👉 [https://drfelipefeldhaus.com.br/](https://drfelipefeldhaus.netlify.app/)
 
 ---
 
